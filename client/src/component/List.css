@@ -1,0 +1,121 @@
+
+.header {
+  background: #eceff1;
+}
+.invoice-list {
+   padding: 3rem 2.5rem;
+   color: #5e5e5e;
+}
+.invoice-list>div:nth-child(even){
+  /* background-color: #f5f5f5; */
+  color: #5e5e5e;
+}
+.row {
+   display: table;
+   width: 100%;
+   table-layout: fixed;
+}
+.col {
+   width: 50%;
+   display: table-cell;
+   vertical-align: middle;
+}
+h2 {
+  color:#5e5e5e;
+}
+p {
+   font-size: 0.8rem;
+}
+.bold {
+   font-weight: bold;
+   color:#5e5e5e;
+}
+.border {
+   border-bottom: 1px solid #ccc;
+}
+.text-left {
+   text-align: left;
+}
+.text-center {
+   text-align: center;
+}
+.text-right {
+   text-align: right;
+}
+
+.mt-s {
+   margin-top: .5rem;
+}
+.mt-1 {
+   margin-top: 1rem;
+}
+.mt-2 {
+   margin-top: 2rem;
+}
+
+.blue {
+  color:#304ffe;
+  font-weight: 500;
+}
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+}
+.clearBtn {
+  margin: 3rem auto;
+  background: #ec407a;
+  border-radius: 8px;
+  border: none;
+  outline: 0;
+  color: #FFF;
+  cursor: pointer;
+  height: 50px;
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+  width: 92.5%;
+  font-family: 'Lato', sans-serif;
+  position: fixed;
+  bottom: 20px;
+}
+
+.clearBtn:hover {
+  background: #e91e63;
+}
+
+.listBtn {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #949494;
+  margin:0;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: .025em;
+  display: inline-block;
+  transition: color .2s ease-in-out;
+}
+
+.listBtn:hover {
+  color: #009688;
+}
+
+.icon {
+  cursor: pointer;
+  color:#cecece;
+  transition: color .3s ease-in-out;
+}
+.icon:hover {
+  color: #009688;
+}
+.icon:active {
+  color: #009688;
+}
+
+.checked {
+  color: #009688;
+}
